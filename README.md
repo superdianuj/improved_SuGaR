@@ -24,24 +24,24 @@ python runnerizer_nafnet_spsr_sugar.py --dir <name of the folder of images> --re
 **Visualize Mesh**: https://poly.cam/tools/gaussian-splatting or Meshlab
 
 
-# Observation: Preprocessing on already good enough images leads to bad results
+# Observation-1: Preprocessing on already good enough images leads to bad results
 
-![Untitled](https://github.com/superdianuj/improved_SuGaR/assets/47445756/9bd9198d-952f-4043-a214-a02bfff85137)
+![Untitled](https://github.com/superdianuj/improved_SuGaR/assets/47445756/150cbe12-344f-4fc3-8b00-38f6a9b4d667)
+
 
 Another thing to note is that NAFNet works much better than Diffusion based approach for faithful debluring.
 
 
-# Observation: Preprocessing on bad images lead to good results
+# Observation-2: Preprocessing on bad images lead to good results
 
 ## Gaussian Rendering
+![Preprocessing Gaussian Splatting_show5 (1)](https://github.com/superdianuj/improved_SuGaR/assets/47445756/6f7ed96a-4745-4fc0-b619-1faeded2ce4b)
 
 
-![Preprocessing Gaussian Splatting_show5 (1)](https://github.com/superdianuj/improved_SuGaR/assets/47445756/a7303b39-29c1-497d-a350-a631985e4f62)
 
 
 ## Mesh Reconstruction
-
-![Preprocessing Gaussian Splatting_show5](https://github.com/superdianuj/improved_SuGaR/assets/47445756/6cc6e7dd-b12f-4c6c-827f-3c6ab617e688)
+![Preprocessing Gaussian Splatting_show5](https://github.com/superdianuj/improved_SuGaR/assets/47445756/b565da27-70c3-4b59-ac88-79842c9695fe)
 
 
 
