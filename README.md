@@ -5,7 +5,7 @@ The great thing about this is that it leads to obvious rooms for novelties, but 
 
 # Strategy-1: Deblurring (DiffPIR) + Super Resolution (SPSR):
 ```bash
-git clone --recursive https://github.com/superdianuj/improved_SuGaR.git
+git clone --recurse-submodules https://github.com/superdianuj/improved_SuGaR.git
 cd improved_SuGaR
 # drop a folder of images in current directory
 python runnerizer_diffpir_spsr_sugar.py --dir <name of the folder of images> --choice <'Gaussian' or 'motion'> --sugar_choice <"density or "sdf">
@@ -13,7 +13,7 @@ python runnerizer_diffpir_spsr_sugar.py --dir <name of the folder of images> --c
 
 # Strategy-2: Deblurring (NAFNet) + Super Resolution (SPSR):
 ```bash
-git clone --recursive https://github.com/superdianuj/improved_SuGaR.git
+git clone --recurse-submodules https://github.com/superdianuj/improved_SuGaR.git
 cd improved_SuGaR
 # drop a folder of images in current directory
 python runnerizer_nafnet_spsr_sugar.py --dir <name of the folder of images> --resize_imgs <resize images to some dimensions (a x a)> --sugar_choice <"density or "sdf">
