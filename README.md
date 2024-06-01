@@ -9,6 +9,8 @@ git clone --recurse-submodules https://github.com/superdianuj/improved_SuGaR.git
 cd improved_SuGaR
 # drop a folder of images in current directory
 python runnerizer_diffpir_spsr_sugar.py --dir <name of the folder of images> --choice <'Gaussian' or 'motion'> --sugar_choice <"density or "sdf">
+
+# SuGaR results are in 'results' folder
 ```
 
 # Strategy-2: Deblurring (NAFNet) + Super Resolution (SPSR):
@@ -17,6 +19,8 @@ git clone --recurse-submodules https://github.com/superdianuj/improved_SuGaR.git
 cd improved_SuGaR
 # drop a folder of images in current directory
 python runnerizer_nafnet_spsr_sugar.py --dir <name of the folder of images> --resize_imgs <resize images to some dimensions (a x a)> --sugar_choice <"density or "sdf">
+
+# SuGaR results are in 'results' folder
 ```
 
 **Visualize Gaussian Splat**: https://playcanvas.com/supersplat/editor/
