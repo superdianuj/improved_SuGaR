@@ -52,6 +52,19 @@ Another thing to note is that NAFNet works much better than Diffusion based appr
 ![Preprocessing Gaussian Splatting_show5](https://github.com/superdianuj/improved_SuGaR/assets/47445756/b565da27-70c3-4b59-ac88-79842c9695fe)
 
 
+# Observation-3: Decreasing resolution of blurry training images significantly negatively impacts the performance of gaussian splatting
+
+
+![Uploading Preprocessing Gaussian Splatting_show4 (2).png…]()
+
+
+# Observation-4: Decreasing resolution of clean training images (with blurriness artifacts) negatively impacts the performance of gaussian splatting
+
+
+
+![Preprocessing Gaussian Splatting_show4 (1)](https://github.com/superdianuj/improved_SuGaR/assets/47445756/e84b02e1-e89a-46a4-80e9-5d9ab93f5381)
+
+
 
 # References
 https://github.com/Anttwo/SuGaR?tab=readme-ov-file
