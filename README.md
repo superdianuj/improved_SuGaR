@@ -32,7 +32,8 @@ python runnerizer_nafnet_spsr_sugar.py --dir <name of the folder of images> --re
 **Visualize Mesh**: https://poly.cam/tools/gaussian-splatting or Meshlab
 
 
-# Observation-1: Preprocessing on already good enough images leads to bad results
+# Observations
+## Observation-1: Preprocessing on already good enough images leads to bad results
 
 ![Untitled](https://github.com/superdianuj/improved_SuGaR/assets/47445756/150cbe12-344f-4fc3-8b00-38f6a9b4d667)
 
@@ -40,30 +41,30 @@ python runnerizer_nafnet_spsr_sugar.py --dir <name of the folder of images> --re
 Another thing to note is that NAFNet works much better than Diffusion based approach for faithful debluring.
 
 
-# Observation-2: Preprocessing on bad images lead to good results
+## Observation-2: Preprocessing on bad images lead to good results
 
-## Gaussian Rendering
+### Gaussian Rendering
 ![Preprocessing Gaussian Splatting_show5 (1)](https://github.com/superdianuj/improved_SuGaR/assets/47445756/6f7ed96a-4745-4fc0-b619-1faeded2ce4b)
 
 
 
 
-## Mesh Reconstruction
+### Mesh Reconstruction
 ![Preprocessing Gaussian Splatting_show5](https://github.com/superdianuj/improved_SuGaR/assets/47445756/b565da27-70c3-4b59-ac88-79842c9695fe)
 
 
-# Observation-3: Decreasing resolution of blurry training images significantly negatively impacts the performance of gaussian splatting
+## Observation-3: Decreasing resolution of blurry training images significantly negatively impacts the performance of gaussian splatting
 
 
 ![image](https://github.com/superdianuj/improved_SuGaR/assets/47445756/dfd09030-18e2-4068-beb3-839b0a14451a)
 
 
-# Observation-4: Decreasing resolution of clean training images (with blurriness artifacts) negatively impacts the performance of gaussian splatting
+## Observation-4: Decreasing resolution of clean training images (with blurriness artifacts) negatively impacts the performance of gaussian splatting
 
 ![image](https://github.com/superdianuj/improved_SuGaR/assets/47445756/328fa673-1540-489f-87ac-3a6b2df56e2e)
 
 
-# Observation-5: Taking Compliment of Observation-3 and 4 via SR and Deblurring Models leads to Improved Splatting Reconstruction
+## Observation-5: Taking Compliment of Observation-3 and 4 via SR and Deblurring Models leads to Improved Splatting Reconstruction
 
 ![image](https://github.com/superdianuj/improved_SuGaR/assets/47445756/61453c4d-1b90-46ca-8d9b-e284fee31289)
 
