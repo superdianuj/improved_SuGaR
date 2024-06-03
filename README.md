@@ -22,6 +22,8 @@ python runnerizer_diffpir_spsr_sugar.py --dir <name of the folder of images> --c
 git clone --recurse-submodules https://github.com/superdianuj/improved_SuGaR.git
 cd improved_SuGaR
 
+# install requirements within each individual folders by visting them and checking out respective README.md
+
 # drop a folder of images in current directory
 
 python runnerizer_nafnet_spsr_sugar.py --dir <name of the folder of images> --resize_imgs <resize images to some dimensions (a x a)> --sugar_choice <"density or "sdf">
