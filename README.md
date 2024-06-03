@@ -8,6 +8,8 @@ The great thing about this is that it leads to obvious rooms for novelties, but 
 git clone --recurse-submodules https://github.com/superdianuj/improved_SuGaR.git
 cd improved_SuGaR
 
+# install requirements within each individual folders by visting them and checking out respective README.md
+
 # drop a folder of images in current directory
 
 python runnerizer_diffpir_spsr_sugar.py --dir <name of the folder of images> --choice <'Gaussian' or 'motion'> --sugar_choice <"density or "sdf">
