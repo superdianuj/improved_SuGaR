@@ -39,7 +39,7 @@ python runnerizer_nafnet_spsr_sugar.py --dir <name of the folder of images> --re
 # Observations
 ## Observation-1: Preprocessing on already good enough images leads to bad results
 
-![Untitled](https://github.com/superdianuj/improved_SuGaR/assets/47445756/150cbe12-344f-4fc3-8b00-38f6a9b4d667)
+![Preprocessing Gaussian Splatting_show6 (1)](https://github.com/superdianuj/improved_SuGaR/assets/47445756/119f0ed2-1709-4766-bb59-23ff7baf31f4)
 
 
 Another thing to note is that NAFNet works much better than Diffusion based approach for faithful debluring.
